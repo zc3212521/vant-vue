@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": false,
+      "baseUrl": "./",
+      "paths": {
+        "@/*": ["src/*"],
+        "@com/*": ["src/components/"],
+        "@utils/*": ["src/utils/*"],
+        "@img/*": ["src/assets/images/*"]
+      }
+    },
+    "exclude": ["node_modules", "dist"],
+    "include": ["src"]
+}
